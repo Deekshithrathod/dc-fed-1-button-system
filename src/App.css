@@ -2,3 +2,26 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: rgba(69, 69, 69, 0.5);
+
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+
+  margin-top: 10rem;
+}
+
+footer > a {
+  color: gray;
+  text-decoration: none;
+  font-weight: 700;
+}

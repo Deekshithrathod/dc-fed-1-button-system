@@ -2,7 +2,7 @@ import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
 import { useState } from "react";
 import "./Button.css";
 
-export const Button = ({
+const Button = ({
   color = `default`,
   size = `md`,
   startIcon = "",
@@ -38,6 +38,7 @@ export const Button = ({
     fontFamily: "Noto Sans JP",
     fontSize: "14px",
     fontWeight: 500,
+    cursor: "pointer",
 
     display: "flex",
     alignItems: "center",
@@ -50,6 +51,7 @@ export const Button = ({
       style={style}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      disabled={disabled}
     >
       {getStartIcon(startIcon)}Button{getEndIcon(endIcon)}
     </button>
@@ -141,3 +143,5 @@ const getBoxShadow = (disableBoxShadow: boolean, variant?: string) => {
   }
   return `0px 2px 3px 0px rgba(0, 49, 202, 0.20)`;
 };
+
+export default Button;
