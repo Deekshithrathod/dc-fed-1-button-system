@@ -1,0 +1,17 @@
+.home {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  /* background-color: aquamarine; */
+
+  display: flex;
+}
+
+.nav-pane-container {
+  width: 20%;
+  /* background-color: antiqueswhite; */
+}
+
+.button-area-container {
+  width: 80%;
+  /* background-color: yellowgreen; */
+}

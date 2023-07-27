@@ -1,0 +1,28 @@
+.button-area {
+  padding: 3rem 5rem;
+}
+
+.button-area > h1 {
+  color: var(--gray-2, #4f4f4f);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.buttons-display {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.button-row {
+  height: 4rem;
+  /* background-color: red; */
+
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
