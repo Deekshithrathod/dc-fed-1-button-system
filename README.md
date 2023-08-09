@@ -58,6 +58,16 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
+- [x] **User story:** I can see different button types: `default`, `outline` and `text`
+- [x] **User story:** I can choose to disable `box-shadow`
+- [x] **User story:** I can choose to disable the button
+- [x] **User story:** I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- [x] **User story:** I can have different button sizes
+- [x] **User story:** I can have different colors
+- [x] **User story:** When I hover or focus, I can see visual indicators
+- [x] **User story:** I can still access all button attributes
+- [ ] **User story (optional):** Show button in a similar way like the design or use [Storybook](https://storybook.js.org/). Otherwise, showing the button in multiple states is enough
+
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
 
 ## How To Use
