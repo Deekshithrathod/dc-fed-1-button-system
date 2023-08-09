@@ -37,9 +37,9 @@
 
 ## Overview
 
-|                    Full View                     |
-| :----------------------------------------------: |
-| ![Project On Desktop](./public/view-desktop.png) |
+|                    Desktop                     |                  Mobile                   |
+| :--------------------------------------------: | :---------------------------------------: |
+| ![Project On Desktop](public/demo-desktop.png) | ![Demo On Mobile](public/demo-mobile.png) |
 
 - Where can I see your demo? [here](https://dc-fed-1.onrender.com)
 - What have you learned/improved?
