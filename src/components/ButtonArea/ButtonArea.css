@@ -5,8 +5,8 @@ article {
 h1,
 h2,
 h3 {
-  color: var(--gray-2, #4f4f4f);
-  font-family: Poppins;
+  color: #4f4f4f;
+  font-family: "Poppins";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -39,5 +39,5 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0 1.5rem;
+  gap: 1rem 1.5rem;
 }
