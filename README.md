@@ -52,7 +52,7 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- Vite
+- [Vite](https://vitejs.dev/)
 
 ## Features
 
@@ -91,6 +91,8 @@ $ npm run dev
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
+- [Vite Guide](https://vitejs.dev/guide/)
+- [React Docs](https://react.dev/)
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
 
