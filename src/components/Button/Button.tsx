@@ -10,6 +10,7 @@ const Button = ({
   disabled = false,
   disableBoxShadow = false,
   variant = "default",
+  ...props
 }: {
   color?: "primary" | "secondary" | "danger" | "default";
   size?: "sm" | "md" | "lg";
@@ -46,13 +47,14 @@ const Button = ({
     borderRadius: "6px",
     boxShadow: getBoxShadow(disableBoxShadow, variant),
   };
+
   return (
     <button
       style={style}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       disabled={disabled}
-    >
+      {...props}>
       {getStartIcon(startIcon)}Button{getEndIcon(endIcon)}
     </button>
   );
